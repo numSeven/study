@@ -1,0 +1,2185 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "eoMmY",
+      "x": 0,
+      "y": 0,
+      "name": "发现页面",
+      "clip": true,
+      "width": 390,
+      "fill": "#FAF8F5",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "dDdDN",
+          "name": "Status Bar",
+          "width": "fill_container",
+          "height": 44,
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "PoOg9",
+              "name": "time",
+              "fill": "#1C1C1C",
+              "content": "9:41",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "rJZ9z",
+              "name": "indicators",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "wLVyW",
+                  "name": "signal",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "signal",
+                  "iconFontFamily": "lucide",
+                  "fill": "#1C1C1C"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "ZvtjX",
+                  "name": "wifi",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "wifi",
+                  "iconFontFamily": "lucide",
+                  "fill": "#1C1C1C"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "bsVGu",
+                  "name": "battery",
+                  "width": 24,
+                  "height": 12,
+                  "iconFontName": "battery",
+                  "iconFontFamily": "lucide",
+                  "fill": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Zb5Mp",
+          "name": "header",
+          "width": "fill_container",
+          "height": 56,
+          "padding": [
+            0,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "HcKgq",
+              "name": "title",
+              "fill": "#1C1C1C",
+              "content": "发现音乐",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "300",
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "frame",
+              "id": "W7cha",
+              "name": "icons",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "NDn8L",
+                  "name": "search",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "#1C1C1C"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "AGd1n",
+                  "name": "settings",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "settings",
+                  "iconFontFamily": "lucide",
+                  "fill": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nm2BS",
+          "name": "content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            12,
+            0,
+            100,
+            0
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "0UDrm",
+              "name": "bannerSection",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                0,
+                20
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "diKEX",
+                  "name": "banner",
+                  "width": "fill_container",
+                  "height": 160,
+                  "fill": "#1E3A5F",
+                  "cornerRadius": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "k2u7s",
+                      "name": "bannerContent",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 24,
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "3dqrq",
+                          "name": "bannerTitle",
+                          "fill": "#FFFFFF",
+                          "content": "每日推荐",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dC3Zb",
+                          "name": "bannerSub",
+                          "fill": "#FFFFFFAA",
+                          "content": "根据你的喜好精选",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "9mmMh",
+              "name": "playlistSection",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zsr2T",
+                  "name": "playlistHeader",
+                  "width": "fill_container",
+                  "padding": [
+                    0,
+                    20
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WDq4W",
+                      "name": "playlistTitle",
+                      "fill": "#1C1C1C",
+                      "content": "推荐歌单",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XcHea",
+                      "name": "playlistMore",
+                      "fill": "#1E3A5F",
+                      "content": "更多",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lyDfq",
+                  "name": "playlistScroll",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "HakfW",
+                      "name": "playlist1",
+                      "width": 140,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Ec88l",
+                          "name": "cover1",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "heijnsbroek_abstract_art",
+                            "link": "https://unsplash.com/@heijnsbroek_abstract_art",
+                            "author": "Fons Heijnsbroek"
+                          },
+                          "width": 140,
+                          "height": 140,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1724052177913-6c181f3abf29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxNjA3MTR8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 12
+                        },
+                        {
+                          "type": "text",
+                          "id": "fX4pp",
+                          "name": "name1",
+                          "fill": "#1C1C1C",
+                          "content": "流行热歌榜",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OypQW",
+                      "name": "playlist2",
+                      "width": 140,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "SbSH7",
+                          "name": "cover2",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "rombo_guitar_picks",
+                            "link": "https://unsplash.com/@rombo_guitar_picks",
+                            "author": "Rombo"
+                          },
+                          "width": 140,
+                          "height": 140,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1648828715045-6528467087a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxNjA3MTR8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 12
+                        },
+                        {
+                          "type": "text",
+                          "id": "rNLzA",
+                          "name": "name2",
+                          "fill": "#1C1C1C",
+                          "content": "欧美金曲",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UQ3Ct",
+                      "name": "playlist3",
+                      "width": 140,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "hSGrI",
+                          "name": "cover3",
+                          "metadata": {
+                            "type": "unsplash",
+                            "username": "slie_design",
+                            "link": "https://unsplash.com/@slie_design",
+                            "author": "Laszlo Barta"
+                          },
+                          "width": 140,
+                          "height": 140,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1764510380715-cce88335559f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjkxNjA3MTV8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 12
+                        },
+                        {
+                          "type": "text",
+                          "id": "Be51V",
+                          "name": "name3",
+                          "fill": "#1C1C1C",
+                          "content": "电音派对",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DVVLo",
+              "name": "chartSection",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SOCRw",
+                  "name": "chartHeader",
+                  "width": "fill_container",
+                  "padding": [
+                    0,
+                    20
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qCXsy",
+                      "name": "chartTitle",
+                      "fill": "#1C1C1C",
+                      "content": "排行榜",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1Cr3w",
+                      "name": "chartMore",
+                      "fill": "#1E3A5F",
+                      "content": "查看全部",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HmPwM",
+                  "name": "chartCards",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    0,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "2D4me",
+                      "name": "chart1",
+                      "width": "fill_container",
+                      "height": 70,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "gap": 12,
+                      "padding": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "vQSTc",
+                          "name": "chart1Cover",
+                          "width": 46,
+                          "height": 46,
+                          "fill": "#F5F3F0",
+                          "cornerRadius": 8
+                        },
+                        {
+                          "type": "frame",
+                          "id": "04a35",
+                          "name": "chart1Info",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "3xWaw",
+                              "name": "chart1Title",
+                              "fill": "#1C1C1C",
+                              "content": "飙升榜",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "z6emD",
+                              "name": "chart1Sub",
+                              "fill": "#6B6B6B",
+                              "content": "最新热门歌曲",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "V7qGM",
+                          "name": "chart1Arrow",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "chevron-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "#9A9A9A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YEwoj",
+                      "name": "chart2",
+                      "width": "fill_container",
+                      "height": 70,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "gap": 12,
+                      "padding": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "n3xw1",
+                          "name": "chart2Cover",
+                          "width": 46,
+                          "height": 46,
+                          "fill": "#F5F3F0",
+                          "cornerRadius": 8
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rVSsM",
+                          "name": "chart2Info",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "YQ47f",
+                              "name": "chart2Title",
+                              "fill": "#1C1C1C",
+                              "content": "热歌榜",
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "SUnCQ",
+                              "name": "chart2Sub",
+                              "fill": "#6B6B6B",
+                              "content": "每日更新",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "cq6DC",
+                          "name": "chart2Arrow",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "chevron-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "#9A9A9A"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "EjE2p",
+          "name": "tabBar",
+          "width": "fill_container",
+          "height": 84,
+          "padding": [
+            12,
+            24,
+            24,
+            24
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "bp1mO",
+              "name": "tabBarPill",
+              "width": "fill_container",
+              "height": 56,
+              "fill": "#FFFFFF",
+              "cornerRadius": 28,
+              "gap": 4,
+              "padding": 4,
+              "justifyContent": "space_around",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "bvsaj",
+                  "name": "tab1",
+                  "width": 70,
+                  "height": "fill_container",
+                  "fill": "#1E3A5F",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "sjVeI",
+                      "name": "tab1Icon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "disc-3",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IGf6W",
+                      "name": "tab1Label",
+                      "fill": "#FFFFFF",
+                      "content": "发现",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NXhDE",
+                  "name": "tab2",
+                  "width": 70,
+                  "height": "fill_container",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "hDeOq",
+                      "name": "tab2Icon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "library",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9A9A9A"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wZLKY",
+                      "name": "tab2Label",
+                      "fill": "#9A9A9A",
+                      "content": "音乐库",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rS9GW",
+                  "name": "tab3",
+                  "width": 70,
+                  "height": "fill_container",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "8YRih",
+                      "name": "tab3Icon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "search",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9A9A9A"
+                    },
+                    {
+                      "type": "text",
+                      "id": "52Rmt",
+                      "name": "tab3Label",
+                      "fill": "#9A9A9A",
+                      "content": "搜索",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xudbL",
+                  "name": "tab4",
+                  "width": 70,
+                  "height": "fill_container",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "sbcDi",
+                      "name": "tab4Icon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "user",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9A9A9A"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DKwqe",
+                      "name": "tab4Label",
+                      "fill": "#9A9A9A",
+                      "content": "我的",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Xrast",
+      "x": 450,
+      "y": 0,
+      "name": "音乐库页面",
+      "clip": true,
+      "width": 390,
+      "fill": "#FAF8F5",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "1dKeA",
+          "name": "Status Bar",
+          "width": "fill_container",
+          "height": 44,
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "3hyJn",
+              "name": "libTime",
+              "fill": "#1C1C1C",
+              "content": "9:41",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "zvEZT",
+              "name": "libIndicators",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "edhMq",
+                  "name": "libSignal",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "signal",
+                  "iconFontFamily": "lucide",
+                  "fill": "#1C1C1C"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "a1gZZ",
+                  "name": "libWifi",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "wifi",
+                  "iconFontFamily": "lucide",
+                  "fill": "#1C1C1C"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "zLSR1",
+                  "name": "libBattery",
+                  "width": 24,
+                  "height": 12,
+                  "iconFontName": "battery",
+                  "iconFontFamily": "lucide",
+                  "fill": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "U6Fbe",
+          "name": "libHeader",
+          "width": "fill_container",
+          "height": 56,
+          "padding": [
+            0,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "GUelZ",
+              "name": "libTitle",
+              "fill": "#1C1C1C",
+              "content": "音乐库",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "300",
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "frame",
+              "id": "L7h1F",
+              "name": "libIcons",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "QR3st",
+                  "name": "libAdd",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "plus",
+                  "iconFontFamily": "lucide",
+                  "fill": "#1C1C1C"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "AgG3e",
+                  "name": "libMore",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "menu",
+                  "iconFontFamily": "lucide",
+                  "fill": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "iAjwh",
+          "name": "libContent",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            12,
+            20,
+            100,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "wXRep",
+              "name": "favCard",
+              "width": "fill_container",
+              "height": 80,
+              "fill": "#1E3A5F",
+              "cornerRadius": 16,
+              "gap": 16,
+              "padding": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hhTl4",
+                  "name": "favIcon",
+                  "width": 48,
+                  "height": 48,
+                  "fill": "#FFFFFF33",
+                  "cornerRadius": 12,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "cIQVR",
+                      "name": "favIconHeart",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "heart",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lfUxx",
+                  "name": "favInfo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cpT5Y",
+                      "name": "favTitle",
+                      "fill": "#FFFFFF",
+                      "content": "我喜欢的音乐",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mYrjk",
+                      "name": "favCount",
+                      "fill": "#FFFFFFAA",
+                      "content": "328首歌曲",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon_font",
+                  "id": "3ssDz",
+                  "name": "favArrow",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "chevron-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XVlnR",
+              "name": "quickSection",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XcOlE",
+                  "name": "quickGrid",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qeqKU",
+                      "name": "localCard",
+                      "width": "fill_container",
+                      "height": 100,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "qPGgM",
+                          "name": "localIcon",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "music",
+                          "iconFontFamily": "lucide",
+                          "fill": "#1E3A5F"
+                        },
+                        {
+                          "type": "text",
+                          "id": "aHMv1",
+                          "name": "localText",
+                          "fill": "#1C1C1C",
+                          "content": "本地音乐",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "N3p4z",
+                          "name": "localCount",
+                          "fill": "#6B6B6B",
+                          "content": "42首",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VfJ1j",
+                      "name": "recentCard",
+                      "width": "fill_container",
+                      "height": 100,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Y2bZ1",
+                          "name": "recentIcon",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "history",
+                          "iconFontFamily": "lucide",
+                          "fill": "#1E3A5F"
+                        },
+                        {
+                          "type": "text",
+                          "id": "FkCzC",
+                          "name": "recentText",
+                          "fill": "#1C1C1C",
+                          "content": "最近播放",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sZFDc",
+                          "name": "recentCount",
+                          "fill": "#6B6B6B",
+                          "content": "156首",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "4Ha2w",
+                      "name": "downloadCard",
+                      "width": "fill_container",
+                      "height": 100,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "uqccS",
+                          "name": "downloadIcon",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "download",
+                          "iconFontFamily": "lucide",
+                          "fill": "#1E3A5F"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XxOpk",
+                          "name": "downloadText",
+                          "fill": "#1C1C1C",
+                          "content": "下载管理",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BEdU9",
+                          "name": "downloadCount",
+                          "fill": "#6B6B6B",
+                          "content": "89首",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "U0L7R",
+              "name": "playlistSection",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mZWHZ",
+                  "name": "playlistHeader",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aQE2w",
+                      "name": "playlistHeaderTitle",
+                      "fill": "#1C1C1C",
+                      "content": "我的歌单",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rwAlG",
+                      "name": "playlistHeaderMore",
+                      "fill": "#1E3A5F",
+                      "content": "管理",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "p0fmh",
+                  "name": "playlistList",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FIttn",
+                      "name": "playlist1Row",
+                      "width": "fill_container",
+                      "height": 64,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "gap": 12,
+                      "padding": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "QSx4E",
+                          "name": "playlist1Cover",
+                          "width": 40,
+                          "height": 40,
+                          "fill": "#F5F3F0",
+                          "cornerRadius": 8
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nTCKu",
+                          "name": "playlist1Info",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "49kBr",
+                              "name": "playlist1Title",
+                              "fill": "#1C1C1C",
+                              "content": "粤语经典",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "hzPGH",
+                              "name": "playlist1Sub",
+                              "fill": "#6B6B6B",
+                              "content": "24首歌曲",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "JfKIE",
+                          "name": "playlist1Arrow",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "chevron-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "#9A9A9A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Z9wlc",
+                      "name": "playlist2Row",
+                      "width": "fill_container",
+                      "height": 64,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "gap": 12,
+                      "padding": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "aoc31",
+                          "name": "playlist2Cover",
+                          "width": 40,
+                          "height": 40,
+                          "fill": "#F5F3F0",
+                          "cornerRadius": 8
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rpA3B",
+                          "name": "playlist2Info",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "8fGik",
+                              "name": "playlist2Title",
+                              "fill": "#1C1C1C",
+                              "content": "夜晚安静歌曲",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "oLgA7",
+                              "name": "playlist2Sub",
+                              "fill": "#6B6B6B",
+                              "content": "18首歌曲",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "TnbVE",
+                          "name": "playlist2Arrow",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "chevron-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "#9A9A9A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ebYX2",
+                      "name": "playlist3Row",
+                      "width": "fill_container",
+                      "height": 64,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "gap": 12,
+                      "padding": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "WmeHN",
+                          "name": "playlist3Cover",
+                          "width": 40,
+                          "height": 40,
+                          "fill": "#F5F3F0",
+                          "cornerRadius": 8
+                        },
+                        {
+                          "type": "frame",
+                          "id": "RLxLk",
+                          "name": "playlist3Info",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "R5FHd",
+                              "name": "playlist3Title",
+                              "fill": "#1C1C1C",
+                              "content": "运动健身",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Mt4z9",
+                              "name": "playlist3Sub",
+                              "fill": "#6B6B6B",
+                              "content": "32首歌曲",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "uTSyJ",
+                          "name": "playlist3Arrow",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "chevron-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "#9A9A9A"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tNAxH",
+          "name": "libTabBar",
+          "width": "fill_container",
+          "height": 84,
+          "padding": [
+            12,
+            24,
+            24,
+            24
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "BJRI8",
+              "name": "libTabBarPill",
+              "width": "fill_container",
+              "height": 56,
+              "fill": "#FFFFFF",
+              "cornerRadius": 28,
+              "gap": 4,
+              "padding": 4,
+              "justifyContent": "space_around",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "GM3Yq",
+                  "name": "libTab1",
+                  "width": 70,
+                  "height": "fill_container",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "l5nId",
+                      "name": "libTab1Icon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "disc-3",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9A9A9A"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k8GsX",
+                      "name": "libTab1Label",
+                      "fill": "#9A9A9A",
+                      "content": "发现",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UdxpL",
+                  "name": "libTab2",
+                  "width": 70,
+                  "height": "fill_container",
+                  "fill": "#1E3A5F",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "QAcdB",
+                      "name": "libTab2Icon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "library",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BkuIC",
+                      "name": "libTab2Label",
+                      "fill": "#FFFFFF",
+                      "content": "音乐库",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fDWzP",
+                  "name": "libTab3",
+                  "width": 70,
+                  "height": "fill_container",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "ZOVTX",
+                      "name": "libTab3Icon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "search",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9A9A9A"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fP55X",
+                      "name": "libTab3Label",
+                      "fill": "#9A9A9A",
+                      "content": "搜索",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4AZ7c",
+                  "name": "libTab4",
+                  "width": 70,
+                  "height": "fill_container",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "qnSlT",
+                      "name": "libTab4Icon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "user",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9A9A9A"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6qUls",
+                      "name": "libTab4Label",
+                      "fill": "#9A9A9A",
+                      "content": "我的",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "04LTn",
+      "x": 900,
+      "y": 0,
+      "name": "搜索页面",
+      "clip": true,
+      "width": 390,
+      "fill": "#FAF8F5",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "FZ3Nb",
+          "name": "Status Bar",
+          "width": "fill_container",
+          "height": 44,
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "NynCM",
+              "name": "searchTime",
+              "fill": "#1C1C1C",
+              "content": "9:41",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "MhbC0",
+              "name": "searchIndicators",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "dTviS",
+                  "name": "searchSignal",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "signal",
+                  "iconFontFamily": "lucide",
+                  "fill": "#1C1C1C"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "Dea0s",
+                  "name": "searchWifi",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "wifi",
+                  "iconFontFamily": "lucide",
+                  "fill": "#1C1C1C"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "AFfe6",
+                  "name": "searchBattery",
+                  "width": 24,
+                  "height": 12,
+                  "iconFontName": "battery",
+                  "iconFontFamily": "lucide",
+                  "fill": "#1C1C1C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LWh4V",
+          "name": "searchHeader",
+          "width": "fill_container",
+          "height": 56,
+          "gap": 12,
+          "padding": [
+            8,
+            20,
+            0,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "UHOM9",
+              "name": "searchBar",
+              "width": "fill_container",
+              "height": 40,
+              "fill": "#FFFFFF",
+              "cornerRadius": 20,
+              "gap": 8,
+              "padding": [
+                0,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "NkJXO",
+                  "name": "searchIcon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "#9A9A9A"
+                },
+                {
+                  "type": "text",
+                  "id": "2EqYx",
+                  "name": "searchInput",
+                  "fill": "#9A9A9A",
+                  "content": "搜索歌曲、歌手、歌单",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "aJVb3",
+              "name": "cancelBtn",
+              "fill": "#1E3A5F",
+              "content": "取消",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "EpLtI",
+          "name": "searchContent",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            16,
+            20,
+            100,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "L8FLC",
+              "name": "hotSection",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VtIJ9",
+                  "name": "hotTitle",
+                  "fill": "#1C1C1C",
+                  "content": "热门搜索",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "rjeY9",
+                  "name": "hotTags",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BlkrR",
+                      "name": "tag1",
+                      "height": 32,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "soByB",
+                          "name": "tag1Text",
+                          "fill": "#1C1C1C",
+                          "content": "周杰伦",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Ukxnc",
+                      "name": "tag2",
+                      "height": 32,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "P5V5r",
+                          "name": "tag2Text",
+                          "fill": "#1C1C1C",
+                          "content": "告白气球",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iAYVF",
+                      "name": "tag3",
+                      "height": 32,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WTQHU",
+                          "name": "tag3Text",
+                          "fill": "#1C1C1C",
+                          "content": "孤勇者",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "5ifVe",
+                  "name": "hotTags2",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "nJTYh",
+                      "name": "tag4",
+                      "height": 32,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Mpra0",
+                          "name": "tag4Text",
+                          "fill": "#1C1C1C",
+                          "content": "邓紫棋",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VJrnL",
+                      "name": "tag5",
+                      "height": 32,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ykSQ4",
+                          "name": "tag5Text",
+                          "fill": "#1C1C1C",
+                          "content": "夜曲",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Wep37",
+                      "name": "tag6",
+                      "height": 32,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eH7Dn",
+                          "name": "tag6Text",
+                          "fill": "#1C1C1C",
+                          "content": "晴天",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "QjnBv",
+              "name": "historySection",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "1jLgx",
+                  "name": "historyHeader",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nK7u0",
+                      "name": "historyTitle",
+                      "fill": "#1C1C1C",
+                      "content": "搜索历史",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "Wwg3M",
+                      "name": "clearHistory",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "trash-2",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9A9A9A"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "p3Xui",
+                  "name": "historyList",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tT4TH",
+                      "name": "history1",
+                      "width": "fill_container",
+                      "height": 48,
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "ko6yT",
+                          "name": "history1Icon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "history",
+                          "iconFontFamily": "lucide",
+                          "fill": "#9A9A9A"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rNDrL",
+                          "name": "history1Text",
+                          "fill": "#1C1C1C",
+                          "content": "七里香",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "3h6LW",
+                      "name": "history2",
+                      "width": "fill_container",
+                      "height": 48,
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "eL6Ra",
+                          "name": "history2Icon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "history",
+                          "iconFontFamily": "lucide",
+                          "fill": "#9A9A9A"
+                        },
+                        {
+                          "type": "text",
+                          "id": "1cDOF",
+                          "name": "history2Text",
+                          "fill": "#1C1C1C",
+                          "content": "稻香",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "99fv2",
+                      "name": "history3",
+                      "width": "fill_container",
+                      "height": 48,
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "V2QrU",
+                          "name": "history3Icon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "history",
+                          "iconFontFamily": "lucide",
+                          "fill": "#9A9A9A"
+                        },
+                        {
+                          "type": "text",
+                          "id": "NZAS6",
+                          "name": "history3Text",
+                          "fill": "#1C1C1C",
+                          "content": "青花瓷",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DeCOJ",
+          "name": "searchTabBar",
+          "width": "fill_container",
+          "height": 84,
+          "padding": [
+            12,
+            24,
+            24,
+            24
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "bd0KN",
+              "name": "searchTabBarPill",
+              "width": "fill_container",
+              "height": 56,
+              "fill": "#FFFFFF",
+              "cornerRadius": 28,
+              "gap": 4,
+              "padding": 4,
+              "justifyContent": "space_around",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AEbEt",
+                  "name": "searchTab1",
+                  "width": 70,
+                  "height": "fill_container",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "Ly2Go",
+                      "name": "searchTab1Icon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "disc-3",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9A9A9A"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Qbcah",
+                      "name": "searchTab1Label",
+                      "fill": "#9A9A9A",
+                      "content": "发现",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "k5pCx",
+                  "name": "searchTab2",
+                  "width": 70,
+                  "height": "fill_container",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "X6egi",
+                      "name": "searchTab2Icon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "library",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9A9A9A"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JKEDy",
+                      "name": "searchTab2Label",
+                      "fill": "#9A9A9A",
+                      "content": "音乐库",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "E54Uc",
+                  "name": "searchTab3",
+                  "width": 70,
+                  "height": "fill_container",
+                  "fill": "#1E3A5F",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "IHkPG",
+                      "name": "searchTab3Icon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "search",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VG2RL",
+                      "name": "searchTab3Label",
+                      "fill": "#FFFFFF",
+                      "content": "搜索",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MjCnG",
+                  "name": "searchTab4",
+                  "width": 70,
+                  "height": "fill_container",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "bNUMx",
+                      "name": "searchTab4Icon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "user",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9A9A9A"
+                    },
+                    {
+                      "type": "text",
+                      "id": "89IvH",
+                      "name": "searchTab4Label",
+                      "fill": "#9A9A9A",
+                      "content": "我的",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
